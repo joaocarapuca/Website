@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "https://cdn-icons-png.flaticon.com/512/134/134808.png",
+    "title": "Chat Rápido",
+    "description": "Conversa com mensagens instantâneas sem atrasos."
+  },
+  {
+    "icon": "https://cdn-icons-png.flaticon.com/512/1077/1077012.png",
+    "title": "Grupos de Turmas",
+    "description": "Comunica com o teu grupo de turma facilmente e organizado."
+  },
+  {
+    "icon": "https://cdn-icons-png.flaticon.com/512/8213/8213126.png",
+    "title": "Alertas e Notificações",
+    "description": "Recebe alertas de trabalhos, notas e horários por email."
+  }
+]

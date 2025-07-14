@@ -1,0 +1,347 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fontes e corpo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.bg-verde {
+  background-color: #e9f5ed; /* Verde escuro Bootstrap */
+}
+
+.bg-verde h1,
+.bg-verde h2,
+.bg-verde p {
+  color: rgb(0, 0, 0);
+}
+
+/* NAVBAR */
+.background-verde {
+  background-color: #56857d; /* azul Bootstrap */
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+
+}
+main{
+  background-color:#b8d2ce;
+}
+
+
+.nav-bar .logo img {
+  width: 300px;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  gap: 1.8rem;
+  align-items:center;
+}
+
+.ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  transition: color 0.3s;
+}
+
+.ul li a:hover {
+  color: #cce6cc;
+}
+
+/* MAIN SECTION */
+.main-text {
+  max-width: 600px;
+  padding: 2rem 0;
+}
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.main-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.main-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #198754;
+}
+
+.main-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-gradiente {
+  background: linear-gradient(to right, #198754, #28a745);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-gradiente:hover {
+  background: #157347;
+}
+
+/* IMAGENS */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main-img img,
+.login-img img,
+.beneficios img,
+.card img,
+.galeria-imagens img {
+  max-width: 200px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+/* GALERIA */
+.galeria-imagens {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+/* SOBRE */
+.sobreapp {
+  background-color: #e9f5ed;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.sobretexto {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.sobrenumeros {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.sobrenumeros p {
+  font-size: 1rem;
+}
+
+.sobrenumeros span {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #198754;
+}
+
+/* FUNCIONALIDADES */
+.diferencias {
+  background-color:#56857d; 
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.diferencias .container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3.titulo {
+  margin-top: 1rem;
+  color: #198754;
+  font-size: 1.2rem;
+}
+
+/* LOGIN */
+.login {
+  background-color: #e9f5ed;
+  padding: 3rem 0;
+}
+
+.login .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.login-texto {
+  max-width: 400px;
+}
+
+.login-texto h2 {
+  color: #198754;
+  margin-bottom: 1rem;
+}
+
+/* LOGIN */
+.login1 {
+  background-color: #e9f5ed;
+  padding: 3rem 0;
+}
+
+.login1 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.login1-texto {
+  max-width: 400px;
+}
+
+.login1-texto h2 {
+  color: #56857d;
+  margin-bottom: 1rem;
+}
+
+/* BENEFÍCIOS */
+.beneficios h2 {
+  color: #56857d;
+  margin-bottom: 1rem;
+}
+
+.beneficios p {
+  font-size: 1.1rem;
+}
+
+/* EMAIL */
+.email {
+  background-color: #56857d;
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.email input[type="email"] {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  margin-right: 0.5rem;
+}
+
+.email button {
+  background-color: white;
+  color: #198754;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.email button:hover {
+  background-color: #d4f1e1;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-logo img {
+  max-height: 40px;
+  margin-bottom: 1rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a:hover {
+  color: #cce6cc;
+}
+
+.footer-contacto p {
+  margin-bottom: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 1rem;
+  }
+
+  .galeria-imagens {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .diferencias .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
